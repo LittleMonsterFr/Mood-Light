@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1yl-TT-ULS">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pattern List-->
+        <scene sceneID="jv9-Je-c2H">
+            <objects>
+                <tableViewController id="80G-GV-ZKh" customClass="PatternTableViewController" customModule="Mood_Light" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rhq-5i-6RP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PatternTableViewCell" rowHeight="90" id="ygc-ld-yoh" customClass="PatternTableViewCell" customModule="Mood_Light" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ygc-ld-yoh" id="JfW-xf-1pA">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfp-yI-qbI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Cfp-yI-qbI" secondAttribute="bottom" id="PYa-3V-tcd"/>
+                                        <constraint firstItem="Cfp-yI-qbI" firstAttribute="top" secondItem="JfW-xf-1pA" secondAttribute="top" id="fqP-oA-Mes"/>
+                                        <constraint firstItem="Cfp-yI-qbI" firstAttribute="leading" secondItem="JfW-xf-1pA" secondAttribute="leading" id="iqb-tM-xsf"/>
+                                        <constraint firstAttribute="trailing" secondItem="Cfp-yI-qbI" secondAttribute="trailing" id="x7K-KR-JdC"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellLabel" destination="Cfp-yI-qbI" id="fJb-ZG-CIQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="80G-GV-ZKh" id="sxX-Dk-WTh"/>
+                            <outlet property="delegate" destination="80G-GV-ZKh" id="D8d-gh-4mk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Pattern List" id="a8c-fB-sCS">
+                        <barButtonItem key="leftBarButtonItem" title="Power Off" id="jcY-gw-nmN">
+                            <connections>
+                                <action selector="onPowerOff:" destination="80G-GV-ZKh" id="KAu-99-lcA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="90E-dB-TV7" kind="presentation" identifier="Candle" id="ZIf-bz-qqM"/>
+                        <segue destination="tf6-zE-FuD" kind="presentation" identifier="Hsv" id="mLz-Ci-qWO"/>
+                        <segue destination="dZy-pu-hC0" kind="presentation" identifier="RainbowWheel" id="zXl-Qg-cvf"/>
+                        <segue destination="BHw-O1-XQC" kind="presentation" identifier="Empty" id="IWj-Jk-fGV"/>
+                        <segue destination="YT7-yH-e7b" kind="presentation" identifier="SineRainbow" id="6ej-qL-cD5"/>
+                        <segue destination="OGU-h6-G3B" kind="presentation" identifier="Random" id="A7L-lb-bku"/>
+                        <segue destination="hXQ-Hj-4hK" kind="presentation" identifier="Wave" id="Pvd-3U-IBs"/>
+                        <segue destination="9JE-tW-EjN" kind="presentation" identifier="Uniform" id="vD2-3D-veX"/>
+                        <segue destination="oGs-f9-bJq" kind="presentation" identifier="FastLED" id="pL8-oh-hpd"/>
+                        <segue destination="yHm-Rs-Uea" kind="presentation" identifier="WhiteLight" id="gMN-ga-Oav"/>
+                        <segue destination="xDa-lb-Nv4" kind="presentation" identifier="Duet" id="QoA-gf-qNk"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4M-Wm-z0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="132"/>
+        </scene>
+        <!--Candle-->
+        <scene sceneID="Qv0-93-m6i">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Candle" id="90E-dB-TV7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdq-8i-GqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="350" y="719"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kXQ-O7-DBe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1yl-TT-ULS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qKx-yC-a2n">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="80G-GV-ZKh" kind="relationship" relationship="rootViewController" id="5Rv-pP-8IN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVn-Rq-n0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-665.21739130434787" y="132.88043478260872"/>
+        </scene>
+        <!--Hsv-->
+        <scene sceneID="CLl-0K-7MK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Hsv" id="tf6-zE-FuD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s0O-mH-nqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-665" y="627"/>
+        </scene>
+        <!--RainbowWheel-->
+        <scene sceneID="3hz-96-rM7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RainbowWheel" id="dZy-pu-hC0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJs-JC-cua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-791" y="593"/>
+        </scene>
+        <!--SineRainbow-->
+        <scene sceneID="ySb-A0-uiF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SineRainbow" id="YT7-yH-e7b" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zP2-5x-ITV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-583" y="660"/>
+        </scene>
+        <!--Empty-->
+        <scene sceneID="jCv-FY-N9p">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Empty" id="BHw-O1-XQC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jcL-BK-fLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-898" y="552"/>
+        </scene>
+        <!--Random-->
+        <scene sceneID="kDl-cy-FJY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Random" id="OGU-h6-G3B" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZKQ-RG-R82" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455" y="696"/>
+        </scene>
+        <!--Wave-->
+        <scene sceneID="URL-wH-uva">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Wave" id="hXQ-Hj-4hK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Evu-g2-smr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-337" y="719"/>
+        </scene>
+        <!--Uniform-->
+        <scene sceneID="zYY-Vz-y5F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Uniform" id="9JE-tW-EjN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QrS-Th-kT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-205" y="719"/>
+        </scene>
+        <!--FastLED-->
+        <scene sceneID="uii-1K-tQC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FastLED" id="oGs-f9-bJq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59f-pr-4Pt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="719"/>
+        </scene>
+        <!--WhiteLight-->
+        <scene sceneID="mZf-Hh-3DH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WhiteLight" id="yHm-Rs-Uea" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JyA-kc-CKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="719"/>
+        </scene>
+        <!--Duet-->
+        <scene sceneID="EPu-zd-hmP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Duet" id="xDa-lb-Nv4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RV8-gE-5js" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="719"/>
+        </scene>
+    </scenes>
+</document>

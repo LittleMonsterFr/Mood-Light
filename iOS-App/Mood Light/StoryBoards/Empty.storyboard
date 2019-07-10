@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e5m-Jh-kER">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Empty Pattern-->
+        <scene sceneID="4Kp-jT-1Ju">
+            <objects>
+                <viewController id="Z7j-31-xfx" userLabel="Empty Pattern" customClass="EmptyPatternViewController" customModule="Mood_Light" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4l-M8-NAG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wik-rl-c8a"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="olB-DM-wA1">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="qC7-MG-XgX">
+                            <connections>
+                                <segue destination="Hte-hk-iwb" kind="unwind" unwindAction="unwindToPatternListWithSender:" id="7zz-c0-apd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="V6q-kX-O8w">
+                            <connections>
+                                <action selector="sendButton:" destination="Z7j-31-xfx" id="aJu-bE-h6O"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSI-AY-79t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Hte-hk-iwb" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2703.1999999999998" y="1673.6131934032985"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sHc-mD-tE0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e5m-Jh-kER" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u23-lw-Rtb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Z7j-31-xfx" kind="relationship" relationship="rootViewController" id="Y9j-fN-j3x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8i-X9-WN8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="1673.6131934032985"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,10 @@
+# Files
+*.swp
+*.raw
+*.DS_Store
+auxiliary/run-mood-light.py
+
+# Folders
+.idea/
+build/
+cmake-build-debug/

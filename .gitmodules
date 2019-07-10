@@ -1,0 +1,15 @@
+[submodule "lib/wiringPi/wiringPi"]
+	path = lib/wiringPi/wiringPi
+	url = git://git.drogon.net/wiringPi
+[submodule "lib/gflags"]
+	path = lib/gflags
+	url = git@github.com:gflags/gflags.git
+[submodule "lib/pigpio/pigpio"]
+	path = lib/pigpio/pigpio
+	url = git@github.com:joan2937/pigpio.git
+[submodule "lib/matrix-hal/matrix-creator-hal"]
+	path = lib/matrix-hal/matrix-creator-hal
+	url = git@github.com:LittleMonsterFr/matrix-creator-hal.git
+[submodule "rpi-tools"]
+	path = rpi-tools
+	url = git@github.com:raspberrypi/tools.git

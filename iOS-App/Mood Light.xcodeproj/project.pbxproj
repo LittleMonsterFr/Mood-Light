@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140CFBC720893D3E00BE06B7 /* UIViewControllerId-Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CFBC620893D3E00BE06B7 /* UIViewControllerId-Protocol.swift */; };
+		144596A922356E2000928A80 /* CandlePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144596A822356E2000928A80 /* CandlePatternViewController.swift */; };
+		144596AC22356FCC00928A80 /* Candle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596AB22356FCC00928A80 /* Candle.storyboard */; };
+		144596AE223574A200928A80 /* Hsv.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596AD223574A200928A80 /* Hsv.storyboard */; };
+		144596B02235760200928A80 /* RainbowWheel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596AF2235760200928A80 /* RainbowWheel.storyboard */; };
+		144596B22235771700928A80 /* SineRainbow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596B12235771700928A80 /* SineRainbow.storyboard */; };
+		144596B42235775A00928A80 /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596B32235775A00928A80 /* Empty.storyboard */; };
+		144596B62235788B00928A80 /* Random.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596B52235788B00928A80 /* Random.storyboard */; };
+		144596B82235789700928A80 /* Wave.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596B72235789700928A80 /* Wave.storyboard */; };
+		144596BA223578C200928A80 /* Uniform.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596B9223578C200928A80 /* Uniform.storyboard */; };
+		144596BC223578D400928A80 /* FastLED.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596BB223578D400928A80 /* FastLED.storyboard */; };
+		144596BE223578E200928A80 /* WhiteLight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596BD223578E200928A80 /* WhiteLight.storyboard */; };
+		144596C0223578EC00928A80 /* Duet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144596BF223578EC00928A80 /* Duet.storyboard */; };
+		1468734E223EB81700CA11AC /* ChirpConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468734B223EB7C800CA11AC /* ChirpConnect.framework */; };
+		14B263DC22809D1500D5AF8F /* patterns.json in Resources */ = {isa = PBXBuildFile; fileRef = 14B263DB22809D1500D5AF8F /* patterns.json */; };
+		14C92864210357AC00AB5CB8 /* DuetPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C92863210357AC00AB5CB8 /* DuetPatternViewController.swift */; };
+		14CA50DB2094BA0E00DD6491 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50D32094BA0E00DD6491 /* ChromaShadeSlider.swift */; };
+		14CA50DC2094BA0E00DD6491 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50D42094BA0E00DD6491 /* UIColor+Utilities.swift */; };
+		14CA50DD2094BA0E00DD6491 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50D62094BA0E00DD6491 /* ChromaColorPicker.swift */; };
+		14CA50DE2094BA0E00DD6491 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50D72094BA0E00DD6491 /* ColorModeToggleButton.swift */; };
+		14CA50E02094BA0E00DD6491 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50D92094BA0E00DD6491 /* ChromaHandle.swift */; };
+		14CA50E12094BA0E00DD6491 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA50DA2094BA0E00DD6491 /* ChromaAddButton.swift */; };
+		14CB479B20814479003F365A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB479A20814479003F365A /* AppDelegate.swift */; };
+		14CB479D20814479003F365A /* HsvPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB479C20814479003F365A /* HsvPatternViewController.swift */; };
+		14CB47A020814479003F365A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CB479E20814479003F365A /* Main.storyboard */; };
+		14CB47A22081447B003F365A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CB47A12081447B003F365A /* Assets.xcassets */; };
+		14CB47A52081447B003F365A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CB47A32081447B003F365A /* LaunchScreen.storyboard */; };
+		14D816F8208B455500223C40 /* RandomPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D816F7208B455500223C40 /* RandomPatternViewController.swift */; };
+		14DF11A720821001000B3427 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF11A620821001000B3427 /* UITextField+Extensions.swift */; };
+		14E20747209124CC0064D417 /* EmptyPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E20746209124CC0064D417 /* EmptyPatternViewController.swift */; };
+		14E20749209129EC0064D417 /* RainbowWheelPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E20748209129EC0064D417 /* RainbowWheelPatternViewController.swift */; };
+		14E2074B20912AB50064D417 /* SineRainbowPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2074A20912AB50064D417 /* SineRainbowPatternViewController.swift */; };
+		14E2074D20912CD00064D417 /* WavePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2074C20912CD00064D417 /* WavePatternViewController.swift */; };
+		14E2074F20912FAD0064D417 /* FastLEDPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2074E20912FAD0064D417 /* FastLEDPatternViewController.swift */; };
+		14E52043208E7DC5008A1699 /* UniformPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E52042208E7DC5008A1699 /* UniformPatternViewController.swift */; };
+		14E6D7D220FD3242006C9328 /* WhiteLightPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E6D7D120FD3242006C9328 /* WhiteLightPatternViewController.swift */; };
+		14E975FD2087E7D30082BACF /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E975FC2087E7D30082BACF /* PatternTableViewCell.swift */; };
+		14E975FF2087EAE50082BACF /* PatternTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E975FE2087EAE50082BACF /* PatternTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14DCA8B420868FBC00CB33D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		140CFBC620893D3E00BE06B7 /* UIViewControllerId-Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllerId-Protocol.swift"; sourceTree = "<group>"; };
+		144596A822356E2000928A80 /* CandlePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandlePatternViewController.swift; sourceTree = "<group>"; };
+		144596AB22356FCC00928A80 /* Candle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Candle.storyboard; sourceTree = "<group>"; };
+		144596AD223574A200928A80 /* Hsv.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hsv.storyboard; sourceTree = "<group>"; };
+		144596AF2235760200928A80 /* RainbowWheel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RainbowWheel.storyboard; sourceTree = "<group>"; };
+		144596B12235771700928A80 /* SineRainbow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SineRainbow.storyboard; sourceTree = "<group>"; };
+		144596B32235775A00928A80 /* Empty.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Empty.storyboard; sourceTree = "<group>"; };
+		144596B52235788B00928A80 /* Random.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Random.storyboard; sourceTree = "<group>"; };
+		144596B72235789700928A80 /* Wave.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wave.storyboard; sourceTree = "<group>"; };
+		144596B9223578C200928A80 /* Uniform.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Uniform.storyboard; sourceTree = "<group>"; };
+		144596BB223578D400928A80 /* FastLED.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FastLED.storyboard; sourceTree = "<group>"; };
+		144596BD223578E200928A80 /* WhiteLight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WhiteLight.storyboard; sourceTree = "<group>"; };
+		144596BF223578EC00928A80 /* Duet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Duet.storyboard; sourceTree = "<group>"; };
+		1468734B223EB7C800CA11AC /* ChirpConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChirpConnect.framework; sourceTree = "<group>"; };
+		14B263DB22809D1500D5AF8F /* patterns.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = patterns.json; sourceTree = "<group>"; };
+		14C92863210357AC00AB5CB8 /* DuetPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetPatternViewController.swift; sourceTree = "<group>"; };
+		14CA50D32094BA0E00DD6491 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		14CA50D42094BA0E00DD6491 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		14CA50D52094BA0E00DD6491 /* ChromaColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromaColorPicker.h; sourceTree = "<group>"; };
+		14CA50D62094BA0E00DD6491 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
+		14CA50D72094BA0E00DD6491 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		14CA50D92094BA0E00DD6491 /* ChromaHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaHandle.swift; sourceTree = "<group>"; };
+		14CA50DA2094BA0E00DD6491 /* ChromaAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaAddButton.swift; sourceTree = "<group>"; };
+		14CB479720814479003F365A /* Mood Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CB479A20814479003F365A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CB479C20814479003F365A /* HsvPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsvPatternViewController.swift; sourceTree = "<group>"; };
+		14CB479F20814479003F365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CB47A12081447B003F365A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CB47A42081447B003F365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CB47A62081447B003F365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D816F7208B455500223C40 /* RandomPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomPatternViewController.swift; sourceTree = "<group>"; };
+		14DCA8B52086909B00CB33D7 /* Mood Light-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mood Light-Bridging-Header.h"; sourceTree = "<group>"; };
+		14DF11A620821001000B3427 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		14E20746209124CC0064D417 /* EmptyPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyPatternViewController.swift; sourceTree = "<group>"; };
+		14E20748209129EC0064D417 /* RainbowWheelPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowWheelPatternViewController.swift; sourceTree = "<group>"; };
+		14E2074A20912AB50064D417 /* SineRainbowPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineRainbowPatternViewController.swift; sourceTree = "<group>"; };
+		14E2074C20912CD00064D417 /* WavePatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavePatternViewController.swift; sourceTree = "<group>"; };
+		14E2074E20912FAD0064D417 /* FastLEDPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLEDPatternViewController.swift; sourceTree = "<group>"; };
+		14E52042208E7DC5008A1699 /* UniformPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformPatternViewController.swift; sourceTree = "<group>"; };
+		14E6D7D120FD3242006C9328 /* WhiteLightPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLightPatternViewController.swift; sourceTree = "<group>"; };
+		14E975FC2087E7D30082BACF /* PatternTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewCell.swift; sourceTree = "<group>"; };
+		14E975FE2087EAE50082BACF /* PatternTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CB479420814479003F365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1468734E223EB81700CA11AC /* ChirpConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144596AA22356FA900928A80 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				144596AB22356FCC00928A80 /* Candle.storyboard */,
+				144596AD223574A200928A80 /* Hsv.storyboard */,
+				144596AF2235760200928A80 /* RainbowWheel.storyboard */,
+				144596B12235771700928A80 /* SineRainbow.storyboard */,
+				144596B32235775A00928A80 /* Empty.storyboard */,
+				144596B52235788B00928A80 /* Random.storyboard */,
+				144596B72235789700928A80 /* Wave.storyboard */,
+				144596B9223578C200928A80 /* Uniform.storyboard */,
+				144596BB223578D400928A80 /* FastLED.storyboard */,
+				144596BD223578E200928A80 /* WhiteLight.storyboard */,
+				144596BF223578EC00928A80 /* Duet.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1468734A223EB78400CA11AC /* Chirp */ = {
+			isa = PBXGroup;
+			children = (
+				1468734B223EB7C800CA11AC /* ChirpConnect.framework */,
+			);
+			path = Chirp;
+			sourceTree = "<group>";
+		};
+		1468734D223EB81700CA11AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B263DA22809D1500D5AF8F /* auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				14B263DB22809D1500D5AF8F /* patterns.json */,
+			);
+			name = auxiliary;
+			path = ../../auxiliary;
+			sourceTree = "<group>";
+		};
+		14CA50D22094BA0E00DD6491 /* ChromaColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				14CA50D32094BA0E00DD6491 /* ChromaShadeSlider.swift */,
+				14CA50D42094BA0E00DD6491 /* UIColor+Utilities.swift */,
+				14CA50D52094BA0E00DD6491 /* ChromaColorPicker.h */,
+				14CA50D62094BA0E00DD6491 /* ChromaColorPicker.swift */,
+				14CA50D72094BA0E00DD6491 /* ColorModeToggleButton.swift */,
+				14CA50D92094BA0E00DD6491 /* ChromaHandle.swift */,
+				14CA50DA2094BA0E00DD6491 /* ChromaAddButton.swift */,
+			);
+			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		14CB478E20814479003F365A = {
+			isa = PBXGroup;
+			children = (
+				14CB479920814479003F365A /* Mood Light */,
+				14CB479820814479003F365A /* Products */,
+				1468734D223EB81700CA11AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CB479820814479003F365A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CB479720814479003F365A /* Mood Light.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CB479920814479003F365A /* Mood Light */ = {
+			isa = PBXGroup;
+			children = (
+				14B263DA22809D1500D5AF8F /* auxiliary */,
+				1468734A223EB78400CA11AC /* Chirp */,
+				144596AA22356FA900928A80 /* StoryBoards */,
+				14CA50D22094BA0E00DD6491 /* ChromaColorPicker */,
+				14D816F6208B452700223C40 /* PatternViewControllers */,
+				14CB479A20814479003F365A /* AppDelegate.swift */,
+				14CB479E20814479003F365A /* Main.storyboard */,
+				14E975FE2087EAE50082BACF /* PatternTableViewController.swift */,
+				14E975FC2087E7D30082BACF /* PatternTableViewCell.swift */,
+				14CB47A12081447B003F365A /* Assets.xcassets */,
+				14CB47A32081447B003F365A /* LaunchScreen.storyboard */,
+				14CB47A62081447B003F365A /* Info.plist */,
+				14DF11A620821001000B3427 /* UITextField+Extensions.swift */,
+				14DCA8B52086909B00CB33D7 /* Mood Light-Bridging-Header.h */,
+				140CFBC620893D3E00BE06B7 /* UIViewControllerId-Protocol.swift */,
+			);
+			path = "Mood Light";
+			sourceTree = "<group>";
+		};
+		14D816F6208B452700223C40 /* PatternViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14CB479C20814479003F365A /* HsvPatternViewController.swift */,
+				14E2074E20912FAD0064D417 /* FastLEDPatternViewController.swift */,
+				14E20748209129EC0064D417 /* RainbowWheelPatternViewController.swift */,
+				14E2074A20912AB50064D417 /* SineRainbowPatternViewController.swift */,
+				14D816F7208B455500223C40 /* RandomPatternViewController.swift */,
+				14E20746209124CC0064D417 /* EmptyPatternViewController.swift */,
+				14E52042208E7DC5008A1699 /* UniformPatternViewController.swift */,
+				14E2074C20912CD00064D417 /* WavePatternViewController.swift */,
+				14E6D7D120FD3242006C9328 /* WhiteLightPatternViewController.swift */,
+				144596A822356E2000928A80 /* CandlePatternViewController.swift */,
+				14C92863210357AC00AB5CB8 /* DuetPatternViewController.swift */,
+			);
+			path = PatternViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CB479620814479003F365A /* Mood Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CB47A92081447B003F365A /* Build configuration list for PBXNativeTarget "Mood Light" */;
+			buildPhases = (
+				14CB479320814479003F365A /* Sources */,
+				14CB479420814479003F365A /* Frameworks */,
+				14CB479520814479003F365A /* Resources */,
+				14DCA8B420868FBC00CB33D7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mood Light";
+			productName = Matrix;
+			productReference = 14CB479720814479003F365A /* Mood Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CB478F20814479003F365A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Damien Laidin";
+				TargetAttributes = {
+					14CB479620814479003F365A = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 14CB479220814479003F365A /* Build configuration list for PBXProject "Mood Light" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CB478E20814479003F365A;
+			productRefGroup = 14CB479820814479003F365A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CB479620814479003F365A /* Mood Light */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CB479520814479003F365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CB47A52081447B003F365A /* LaunchScreen.storyboard in Resources */,
+				144596C0223578EC00928A80 /* Duet.storyboard in Resources */,
+				144596BE223578E200928A80 /* WhiteLight.storyboard in Resources */,
+				144596B02235760200928A80 /* RainbowWheel.storyboard in Resources */,
+				14B263DC22809D1500D5AF8F /* patterns.json in Resources */,
+				14CB47A22081447B003F365A /* Assets.xcassets in Resources */,
+				144596AE223574A200928A80 /* Hsv.storyboard in Resources */,
+				144596BC223578D400928A80 /* FastLED.storyboard in Resources */,
+				14CB47A020814479003F365A /* Main.storyboard in Resources */,
+				144596B42235775A00928A80 /* Empty.storyboard in Resources */,
+				144596B62235788B00928A80 /* Random.storyboard in Resources */,
+				144596B82235789700928A80 /* Wave.storyboard in Resources */,
+				144596BA223578C200928A80 /* Uniform.storyboard in Resources */,
+				144596B22235771700928A80 /* SineRainbow.storyboard in Resources */,
+				144596AC22356FCC00928A80 /* Candle.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CB479320814479003F365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DF11A720821001000B3427 /* UITextField+Extensions.swift in Sources */,
+				14D816F8208B455500223C40 /* RandomPatternViewController.swift in Sources */,
+				144596A922356E2000928A80 /* CandlePatternViewController.swift in Sources */,
+				14CA50DB2094BA0E00DD6491 /* ChromaShadeSlider.swift in Sources */,
+				14E52043208E7DC5008A1699 /* UniformPatternViewController.swift in Sources */,
+				14E975FF2087EAE50082BACF /* PatternTableViewController.swift in Sources */,
+				14CA50DC2094BA0E00DD6491 /* UIColor+Utilities.swift in Sources */,
+				14CB479D20814479003F365A /* HsvPatternViewController.swift in Sources */,
+				14E2074B20912AB50064D417 /* SineRainbowPatternViewController.swift in Sources */,
+				14CA50E12094BA0E00DD6491 /* ChromaAddButton.swift in Sources */,
+				14E6D7D220FD3242006C9328 /* WhiteLightPatternViewController.swift in Sources */,
+				14C92864210357AC00AB5CB8 /* DuetPatternViewController.swift in Sources */,
+				140CFBC720893D3E00BE06B7 /* UIViewControllerId-Protocol.swift in Sources */,
+				14CA50DD2094BA0E00DD6491 /* ChromaColorPicker.swift in Sources */,
+				14E20747209124CC0064D417 /* EmptyPatternViewController.swift in Sources */,
+				14CA50E02094BA0E00DD6491 /* ChromaHandle.swift in Sources */,
+				14E975FD2087E7D30082BACF /* PatternTableViewCell.swift in Sources */,
+				14CA50DE2094BA0E00DD6491 /* ColorModeToggleButton.swift in Sources */,
+				14E20749209129EC0064D417 /* RainbowWheelPatternViewController.swift in Sources */,
+				14E2074D20912CD00064D417 /* WavePatternViewController.swift in Sources */,
+				14E2074F20912FAD0064D417 /* FastLEDPatternViewController.swift in Sources */,
+				14CB479B20814479003F365A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14CB479E20814479003F365A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CB479F20814479003F365A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CB47A32081447B003F365A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CB47A42081447B003F365A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CB47A72081447B003F365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CB47A82081447B003F365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CB47AA2081447B003F365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBL7X58WF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mood\\ Light/Chirp",
+					"$(PROJECT_DIR)/Mood\\ Light/Chirp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Mood Light/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myApp.MoodLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mood Light/Mood Light-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CB47AB2081447B003F365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBL7X58WF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Mood\\ Light/Chirp",
+					"$(PROJECT_DIR)/Mood\\ Light/Chirp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Mood Light/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myApp.MoodLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mood Light/Mood Light-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CB479220814479003F365A /* Build configuration list for PBXProject "Mood Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CB47A72081447B003F365A /* Debug */,
+				14CB47A82081447B003F365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CB47A92081447B003F365A /* Build configuration list for PBXNativeTarget "Mood Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CB47AA2081447B003F365A /* Debug */,
+				14CB47AB2081447B003F365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CB478F20814479003F365A /* Project object */;
+}

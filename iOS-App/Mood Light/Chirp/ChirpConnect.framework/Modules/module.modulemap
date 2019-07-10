@@ -1,0 +1,6 @@
+framework module ChirpConnect {
+  umbrella header "ChirpConnect.h"
+
+  export *
+  module * { export * }
+}

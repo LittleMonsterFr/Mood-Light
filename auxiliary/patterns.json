@@ -1,0 +1,78 @@
+{
+    "Empty" :
+    {
+        "id" : 0,
+        "sleep" : 1000000,
+        "intensity" : 0.05
+    },
+
+    "RainbowWheel" :
+    {
+        "id" : 1,
+        "sleep" : 10000,
+        "intensity" : 0.05
+    },
+
+    "Hsv" :
+    {
+        "id" : 2,
+        "sleep" : 10000,
+        "intensity" : 1.0
+    },
+
+    "SineRainbow" :
+    {
+        "id" : 3,
+        "sleep" : 10000,
+        "intensity" : 0.05
+    },
+
+    "Random" :
+    {
+        "id" : 4,
+        "sleep" : 10000,
+        "intensity" : 0.05
+    },
+
+    "Wave" :
+    {
+        "id" : 5,
+        "sleep" : 10000,
+        "intensity" : 1.0
+    },
+
+    "Uniform" :
+    {
+        "id" : 6,
+        "sleep" : 1000000,
+        "intensity" : 1.0
+    },
+
+    "FastLED" :
+    {
+        "id" : 7,
+        "sleep" : 50000,
+        "intensity" : 1.0
+    },
+
+    "WhiteLight" :
+    {
+        "id" : 8,
+        "sleep" : 1000000,
+        "intensity" : 1.0
+    },
+
+    "Duet" :
+    {
+        "id" : 9,
+        "sleep" : 50000,
+        "intensity" : 1.0
+    },
+
+    "Candle" :
+    {
+        "id" : 10,
+        "sleep" : 10000,
+        "intensity" : 1.0
+    }
+}
